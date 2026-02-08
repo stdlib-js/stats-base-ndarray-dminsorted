@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dminsorted@deno/mod.js';
+import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dminsorted@v0.1.1-deno/mod.js';
 ```
 
 #### dminsorted( arrays )
@@ -95,7 +95,7 @@ The function has the following parameters:
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dminsorted@deno/mod.js';
+import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dminsorted@v0.1.1-deno/mod.js';
 
 var xbuf = linspace( -50, 50, 10, {
     'dtype': 'float64'
